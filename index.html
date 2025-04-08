@@ -24,6 +24,15 @@
             margin: 0 0 10px;
         }
 
+        .profile-pic {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-top: 20px;
+            box-shadow: 0 0 8px rgba(0,0,0,0.2);
+        }
+
         .container {
             max-width: 1100px;
             margin: 0 auto;
@@ -101,18 +110,30 @@
             font-weight: bold;
         }
 
+        .contact-info {
+            line-height: 1.8;
+            font-size: 1em;
+        }
+
+        .contact-info i {
+            margin-right: 8px;
+            color: #2b6cb0;
+        }
+
         @media (max-width: 768px) {
             .skills {
                 justify-content: center;
             }
         }
     </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
 
 <header>
     <h1>Juan Silveira</h1>
     <p>Data Analyst Portfolio &mdash; Power BI, Tableau, Excel</p>
+    <img class="profile-pic" src="https://raw.githubusercontent.com/juanmsilv/jms-data-portfolio/main/images/profile.jpg" alt="Juan Silveira">
 </header>
 
 <div class="container">
@@ -139,21 +160,21 @@
 
         <div class="project">
             <h3>SQL & Power BI Project</h3>
-            <img src="https://raw.githubusercontent.com/juanmsilveira/data-portfolio/main/images/powerbi_adidas.png" alt="Power BI Adidas Dashboard">
+            <img src="https://raw.githubusercontent.com/juanmsilv/jms-data-portfolio/main/images/powerbi_adidas.png" alt="Power BI Adidas Dashboard">
             <p>Dashboard interactivo de ventas y rentabilidad de Adidas, con filtros por zona, tipo de producto y trimestre. Incluye métricas clave y visuales personalizadas. Datos procesados con SQL y modelado en Power BI.</p>
             <a href="https://drive.google.com/drive/folders/1Z0F1b72Y46SkI3sepU_qRt1P8-Mh5bn3?usp=sharing" target="_blank">Ver Power BI</a>
         </div>
 
         <div class="project">
             <h3>Tableau Project</h3>
-            <img src="https://raw.githubusercontent.com/juanmsilveira/data-portfolio/main/images/tableau_superms.png" alt="Tableau Dashboard">
+            <img src="https://raw.githubusercontent.com/juanmsilv/jms-data-portfolio/main/images/tableau_superms.png" alt="Tableau Dashboard">
             <p>Análisis financiero de Super Plus Market: evolución de ventas, margenes brutos y comportamiento por producto, región y tipo de cliente. Presentado en Tableau con dashboards visualmente claros y amigables.</p>
             <a href="https://public.tableau.com/app/profile/juan.silveira/viz/SuperMs_Tableau/OtherMetrics?publish=yes" target="_blank">Ver Tableau</a>
         </div>
 
         <div class="project">
             <h3>Excel Dashboard</h3>
-            <img src="https://raw.githubusercontent.com/juanmsilveira/data-portfolio/main/images/excel_censo.png" alt="Excel Dashboard">
+            <img src="https://raw.githubusercontent.com/juanmsilv/jms-data-portfolio/main/images/excel_censo.png" alt="Excel Dashboard">
             <p>Análisis del Censo Uruguayo 2023. Consolidación, limpieza y visualización de datos en Excel con gráficos dinámicos, tablas y dashboard responsivo para evaluar variables demográficas clave.</p>
             <a href="https://drive.google.com/file/d/17ZKgSe93ZOBZo-NJUs0M4VPBvpxLQfDg/view?usp=sharing" target="_blank">Ver Excel</a>
         </div>
@@ -162,7 +183,12 @@
     <div class="section">
         <h2>Currículum Vitae</h2>
         <p>Descargá mi CV en PDF desde el siguiente enlace:</p>
-        <a href="https://github.com/juanmsilveira/data-portfolio/raw/main/Resume_Juan%20M.%20Silveira.pdf" target="_blank">Descargar CV</a>
+        <a href="https://github.com/juanmsilv/jms-data-portfolio/raw/main/Resume_Juan%20M.%20Silveira.pdf" target="_blank">Descargar CV</a>
+    </div>
+
+    
+            <p> title="Guardar mis datos de contacto en tu agenda"><i class="fas fa-id-card"></i> Descargar contacto (vCard)</a></p>
+        </div>
     </div>
 
 </div>
